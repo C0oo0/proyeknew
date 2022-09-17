@@ -1,0 +1,132 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: white;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+
+
+header ul.navigation {
+    margin-top: 30px;
+    
+}
+
+header ul.navigation li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding-bottom: 3px;
+    transition: 0.1s all linear;
+}
+
+header a:hover {
+    background-color: black;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 25px;
+}
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    margin-top: 130px;
+}
+
+.about img{
+    height: auto;
+    width: 430;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.textab h2 {
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 130px;
+}
+
+.career{
+    width: 50%;
+    float: left;
+    margin-top: 130px;
+    text-align: left;
+    padding-left: 90px;
+    margin-bottom: 130px;
+    box-sizing: border-box;
+}
+
+.table{
+    width: 50%;
+    float: left;
+    margin-top: 130px;
+    text-align: center;
+    margin-bottom: 130px;
+    padding-left: 100px;
+    box-sizing: border-box;
+}
+
+
+#tb td {
+    border: 2px solid rgb(165, 162, 162);
+    border-radius: 10px;
+}
+
+#work{
+    padding: 45px 90px;
+}
+
+#work img{
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-bottom: 8px;
+}
+
+section#contact{
+    margin-top: 45px;
+    width: 80%;
+    margin: auto;
+    border: 2px solid gray;
+    border-radius: 8px;
+    padding: 35px;
+    text-align: center;
+}
+
+section#contact input{
+    margin-bottom: 15px;
+    text-align: center;
+    height: 18px;
+    width: 240px;
+}
+
+section#contact textarea{
+    margin-bottom: 15px;
+    width: 240px;
+}
